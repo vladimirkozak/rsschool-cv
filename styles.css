@@ -1,0 +1,33 @@
+.container {
+    max-width: 920px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+h1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-indent: 30px;
+}
+
+h3 { color: blue; }
+
+.contacts-list,
+.skills-list,
+.education-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
