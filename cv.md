@@ -42,3 +42,6 @@ Belarusian - Russian university
 Automatic information processing and control systems
 
 4th year student
+
+### English
+Pre-intermediate level
