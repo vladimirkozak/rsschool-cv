@@ -30,11 +30,8 @@ React, Angular
 
 NPM
 
-### Junior Dev
-empty
-
 ### Experience
-Finished Epam Trening Center Frontend 2020
+I haven't work experience in a company, but I have experience working on educational projects at the university, close to reality.
 
 ### Education
 Belarusian - Russian university
