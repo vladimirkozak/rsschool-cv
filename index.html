@@ -9,59 +9,92 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
+<body class="page">
   <div class="container">
-    <header>
-      <img class="avatar" src="./IMG.jpg" alt="avatar">
-      <h1>Vladimir Kozak</h1>
-    </header>
-    <section>
-      <h3>Contacts</h3>
-      <ul class="contacts-list">
+    <header class="header">
+      <figure class="fugure">
+        <img class="avatar" src="./img/IMG.jpg" alt="avatar">
+      </figure>
+      <h1 class="header__title">Vladimir Kozak</h1>
+      <ul class="header__contacts">
         <li>email: uladzimirkozak@gmail.com</li>
         <li>skype: live:vladi2909</li>
         <li>vk: https://vk.com/id151398178</li>
         <li>Belarus, Mogilev</li>
       </ul>
-    </section>
-    <section>
-      <h3>About me</h3>
-      <p>I am a 4th year student in the specialty of information technology, I have knowledge of OOP, systemanalysis,
-        web technology. Worked on projects from basic templates to SPA projects using Angular / React / JavaScript /
-        Typescript / REST API. One of the last, a project about coronavirus, where he used a third-party API, with
-        up-to-date data, third-partylibraries (map, diagram, graphics).
-      </p>
-    </section>
-    <section>
-      <h3>Skills</h3>
-      <ul class="skills-list">
-        <li>HTML, CSS, SASS, JavaScript, TypeScript</li>
-        <li>Methodology BEM</li>
-        <li>Webpack</li>
-        <li>NodeJs</li>
-        <li>React, Angular</li>
-        <li>NPM</li>
+    </header>
+    <main>
+      <section class="about">
+        <h2>About me</h2>
+        <p class="about__text">I am a 4th year student in the specialty of information technology, I have knowledge of
+          OOP,
+          systemanalysis,
+          web technology. Worked on projects from basic templates to SPA projects using Angular / React / JavaScript /
+          Typescript / REST API. One of the last, a project about coronavirus, where he used a third-party API, with
+          up-to-date data, third-partylibraries (map, diagram, graphics).
+        </p>
+      </section>
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML, CSS, SASS, JavaScript, TypeScript</li>
+          <li>Methodology BEM</li>
+          <li>Webpack</li>
+          <li>NodeJs</li>
+          <li>React, Angular</li>
+          <li>NPM</li>
+        </ul>
+      </section>
+      <section class="code">
+        <h2>Code</h2>
+        <ul class="code__list">
+          <li>
+            <a href="http://vladi2909.github.io/corona/" target="_blank">Coronavirus</a>
+            project sourse code at <a href="https://github.com/vladi2909/corona" target="_blank">Github</a>
+          </li>
+          <li>
+            <a href="https://react-quiz-37c4f.web.app/" target="_blank">Quiz</a>
+            project sourse code at <a href="https://github.com/vladi2909/react-quiz" target="_blank">Github</a>
+          </li>
+          <li>Templates projects sourse code at <a href="https://github.com/vladi2909/templates"
+              target="_blank">Github</a></li>
+        </ul>
+      </section>
+      <section class="experience">
+        <h2>Experience</h2>
+        <p></p>
+      </section>
+      <section class="education">
+        <h2>Education</h2>
+        <ul class="education__list">
+          <li>Belarusian - Russian university</li>
+          <li>Automatic information processing and control systems</li>
+          <li>4th year student</li>
+        </ul>
+      </section>
+      <section class="language">
+        <h2>English</h2>
+        <p>Pre-intermediate level (A2)</p>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="footer__list">
+        <li>
+          <a href="https://github.com/vladi2909" target="_blank">
+            <img class="github__img" src="./img/GitHub_Logo.png" alt="Github">
+          </a>
+        </li>
+        <li>
+          <p class="footer__year">2021</p>
+        </li>
+        <li>
+          <a href="https://rs.school/js/" target="_blank">
+            <img class="rs-school__logo" src="./img/rs_school_js.svg" alt="rs_school_js">
+          </a>
+        </li>
       </ul>
-    </section>
-    <section>
-      <h3>Junior Dev</h3>
-    </section>
-    <section>
-      <h3>Experience</h3>
-      <p>Finished Epam Trening Center Frontend 2020</p>
-    </section>
-    <section>
-      <h3>Education</h3>
-      <ul class="education-list">
-        <li>Belarusian - Russian university</li>
-        <li>Automatic information processing and control systems</li>
-        <li>4th year student</li>
-      </ul>
-    </section>
-    <section>
-      <h3>English</h3>
-      <p>Pre-intermediate level</p>
-    </section>
+    </footer>
   </div>
 </body>
+
 </html>
